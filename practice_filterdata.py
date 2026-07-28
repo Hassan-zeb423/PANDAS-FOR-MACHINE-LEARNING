@@ -9,4 +9,4 @@ data = {
 
 df =  pd.DataFrame(data)
 
-print(df[df["Price"]<2000])
+print(df[df["Price"]>2000])
